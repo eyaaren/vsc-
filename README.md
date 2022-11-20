@@ -9,7 +9,9 @@ intmain (void){
 
     int age;
     printf("please enter your age:");
-    
+    scanf("%d", &age);
+	switch(age){
+	}
     if( age>=18)
     printf("you can vote!");
     else 
